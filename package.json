@@ -1,0 +1,20 @@
+{
+  "name": "drz-smp-changelog-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord changelog bot for DRZ SMP with an HTTP API and website you can hook up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
